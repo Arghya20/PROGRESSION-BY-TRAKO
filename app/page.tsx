@@ -105,16 +105,11 @@ export default function Home() {
                 <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
                   {/* Replace with your first app screenshot */}
                   <Image
-                    src={"/public/app-screenshot-1.PNG"}
+                    src="/app-screenshot-1.PNG"
                     alt="Progression App Screenshot 1"
                     width={256}
                     height={520}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    onError={(e) => {
-                      // Fallback to placeholder if image doesn't exist
-                      e.currentTarget.src =
-                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-1.PNG";
-                    }}
                   />
                 </div>
               </div>
@@ -126,14 +121,11 @@ export default function Home() {
                 <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
                   {/* Replace with your main app screenshot */}
                   <Image
-                    src={"/public/app-screenshot-2.PNG"}
+                    src="/app-screenshot-2.PNG"
                     alt="Progression App Screenshot 2"
+                    width={288}
+                    height={580}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    onError={(e) => {
-                      // Fallback to placeholder if image doesn't exist
-                      e.currentTarget.src =
-                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-2.PNG";
-                    }}
                   />
                 </div>
               </div>
@@ -145,14 +137,11 @@ export default function Home() {
                 <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
                   {/* Replace with your third app screenshot */}
                   <Image
-                    src={"/public/app-screenshot-3.PNG"}
+                    src="/app-screenshot-3.PNG"
                     alt="Progression App Screenshot 3"
+                    width={256}
+                    height={520}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                    onError={(e) => {
-                      // Fallback to placeholder if image doesn't exist
-                      e.currentTarget.src =
-                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-3.PNG";
-                    }}
                   />
                 </div>
               </div>
