@@ -9,8 +9,7 @@ export default function Home() {
 
   // Function to handle APK download
   const handleDownload = () => {
-    // TODO: Replace with your actual APK file URL
-    const apkUrl = "../public/app-release.apk"; // You'll replace this with your APK file path
+    const apkUrl = "/app-release.apk"; // Correct path for files in public directory
 
     // Create a temporary link element and trigger download
     const link = document.createElement("a");
