@@ -110,7 +110,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-1.PNG";
+                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-1.PNG";
                     }}
                   />
                 </div>
@@ -129,7 +129,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-2.PNG";
+                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-2.PNG";
                     }}
                   />
                 </div>
@@ -148,7 +148,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-3.PNG";
+                        "https://raw.githubusercontent.com/Arghya20/PROGRESSION-BY-TRAKO/refs/heads/main/public/app-screenshot-3.PNG";
                     }}
                   />
                 </div>
