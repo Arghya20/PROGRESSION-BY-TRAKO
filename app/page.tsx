@@ -1,6 +1,7 @@
 "use client";
 
 import { Apple, Play, Menu, X } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
@@ -103,9 +104,11 @@ export default function Home() {
               <div className="w-64 h-[520px] bg-black rounded-[2.5rem] p-2 shadow-2xl hover:shadow-3xl transition-shadow duration-500 animate-gentle-bounce animation-delay-1000">
                 <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
                   {/* Replace with your first app screenshot */}
-                  <img
-                    src="/app-screenshot-1.png"
+                  <Image
+                    src={"/public/app-screenshot-1.PNG"}
                     alt="Progression App Screenshot 1"
+                    width={256}
+                    height={520}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
@@ -122,8 +125,8 @@ export default function Home() {
               <div className="w-72 h-[580px] bg-black rounded-[3rem] p-2 shadow-2xl hover:shadow-3xl transition-shadow duration-500 animate-gentle-bounce animation-delay-1200">
                 <div className="w-full h-full bg-white rounded-[2.5rem] overflow-hidden">
                   {/* Replace with your main app screenshot */}
-                  <img
-                    src="/app-screenshot-2.png"
+                  <Image
+                    src={"/public/app-screenshot-2.PNG"}
                     alt="Progression App Screenshot 2"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     onError={(e) => {
@@ -141,8 +144,8 @@ export default function Home() {
               <div className="w-64 h-[520px] bg-black rounded-[2.5rem] p-2 shadow-2xl hover:shadow-3xl transition-shadow duration-500 animate-gentle-bounce animation-delay-1400">
                 <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden">
                   {/* Replace with your third app screenshot */}
-                  <img
-                    src="/app-screenshot-3.png"
+                  <Image
+                    src={"/public/app-screenshot-3.PNG"}
                     alt="Progression App Screenshot 3"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     onError={(e) => {
