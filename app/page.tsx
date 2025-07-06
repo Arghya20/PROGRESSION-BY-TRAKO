@@ -110,7 +110,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=300&h=600&fit=crop";
+                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-1.PNG";
                     }}
                   />
                 </div>
@@ -129,7 +129,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=350&h=700&fit=crop";
+                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-2.PNG";
                     }}
                   />
                 </div>
@@ -148,7 +148,7 @@ export default function Home() {
                     onError={(e) => {
                       // Fallback to placeholder if image doesn't exist
                       e.currentTarget.src =
-                        "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=300&h=600&fit=crop";
+                        "https://github.com/Arghya20/PROGRESSION-BY-TRAKO/blob/main/public/app-screenshot-3.PNG";
                     }}
                   />
                 </div>
